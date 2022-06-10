@@ -81,7 +81,7 @@
 		bindings = <
 		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
 		&kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT  &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR
-		&kp IT_GREAT &kp IT_USD &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp EXCL &kp QMARK &kp APOS &kp DQT &kp AT
+		&kp PLUS &kp MINUS &kp ASTRK &kp FSLH &kp EQUAL 	&kp APOS &kp DQT &kp SEMICOLON &kp COLON &kp UNDERSCORE
 					                                        &mo FNC  &mo SYM2       &trans &trans
 		>;
 		};
@@ -91,7 +91,7 @@
 		bindings = <
 		&kp TAB  &kp C &kp V  &kp Q  &trans    			        &kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-		&kp LCMD  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
+		&kp LEFT_CONTROL  &kp LC(X) &kp LEFT_COMMAND &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
 					                        &trans &kp LCTRL    &kp ENTER  &mo FNC 
 		>;
 		};
